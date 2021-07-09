@@ -7,7 +7,7 @@ node ('test-server'){
     stage('Build-and-Tag') {
     /* This builds the actual image; synonymous to
          * docker build on the command line */
-        app = docker.build("kasar-hr3/snake")
+        app = docker.build("kasarhr3/snake")
     }
     stage('Post-to-dockerhub') {
     
